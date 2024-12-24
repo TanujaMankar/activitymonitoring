@@ -1,0 +1,9 @@
+C:\Users\tanuj\source\repos\ActivityMonitoring\ActivityMonitor.entity\bin\Debug\ActivityMonitor.entity.dll
+C:\Users\tanuj\source\repos\ActivityMonitoring\ActivityMonitor.entity\bin\Debug\ActivityMonitor.entity.pdb
+C:\Users\tanuj\source\repos\ActivityMonitoring\ActivityMonitor.entity\bin\Debug\System.Data.SQLite.dll
+C:\Users\tanuj\source\repos\ActivityMonitoring\ActivityMonitor.entity\bin\Debug\System.Data.SQLite.xml
+C:\Users\tanuj\source\repos\ActivityMonitoring\ActivityMonitor.entity\obj\Debug\ActivityMonitor.entity.csproj.AssemblyReference.cache
+C:\Users\tanuj\source\repos\ActivityMonitoring\ActivityMonitor.entity\obj\Debug\ActivityMonitor.entity.csproj.CoreCompileInputs.cache
+C:\Users\tanuj\source\repos\ActivityMonitoring\ActivityMonitor.entity\obj\Debug\ActivityMonitor.entity.csproj.CopyComplete
+C:\Users\tanuj\source\repos\ActivityMonitoring\ActivityMonitor.entity\obj\Debug\ActivityMonitor.entity.dll
+C:\Users\tanuj\source\repos\ActivityMonitoring\ActivityMonitor.entity\obj\Debug\ActivityMonitor.entity.pdb

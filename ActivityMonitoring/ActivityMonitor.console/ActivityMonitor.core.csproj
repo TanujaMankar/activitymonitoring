@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AxInterop.SHDocVw" Version="1.0.0" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="MSMQ.Messaging" Version="1.0.4" />
+    <PackageReference Include="Quartz" Version="3.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ActivityMonitor.entity\ActivityMonitor.entity.csproj" />
+    <ProjectReference Include="..\ActivityMonitor.Network\ActivityMonitor.Network.csproj" />
+    <ProjectReference Include="..\ActivityMonitor.service\ActivityMonitor.service.csproj" />
+    <ProjectReference Include="..\ActivityMonitor.Utilities\ActivityMonitor.Utilities.csproj" />
+    <ProjectReference Include="..\ActivityMonitor.watcher\ActivityMonitor.watcher.csproj" />
+    <ProjectReference Include="..\ActivityMonitoring\ActivityMonitor.windows.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\amd64_system.windows.forms_b77a5c561934e089_4.0.15912.120_none_83e466b49bd6baf2\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

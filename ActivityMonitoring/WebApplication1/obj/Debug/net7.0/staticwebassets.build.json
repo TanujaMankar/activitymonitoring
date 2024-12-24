@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "L6QGX9EOZaYqnfZ07/zshUsZ/PuomhD11Z9hQrnUbY4=",
+  "Source": "ActivityMonitor.API",
+  "BasePath": "_content/ActivityMonitor.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

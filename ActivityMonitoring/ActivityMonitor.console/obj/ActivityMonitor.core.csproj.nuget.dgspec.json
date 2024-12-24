@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.console\\ActivityMonitor.core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.console\\ActivityMonitor.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.console\\ActivityMonitor.core.csproj",
+        "projectName": "ActivityMonitor.core",
+        "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.console\\ActivityMonitor.core.csproj",
+        "packagesPath": "C:\\Users\\tanuj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.console\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tanuj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Utilities\\ActivityMonitor.Utilities.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Utilities\\ActivityMonitor.Utilities.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.watcher\\ActivityMonitor.watcher.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.watcher\\ActivityMonitor.watcher.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitoring\\ActivityMonitor.windows.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitoring\\ActivityMonitor.windows.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AxInterop.SHDocVw": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "MSMQ.Messaging": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj",
+        "projectName": "ActivityMonitor.entity",
+        "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj",
+        "projectName": "ActivityMonitor.Network",
+        "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj",
+        "projectName": "ActivityMonitor.service",
+        "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Utilities\\ActivityMonitor.Utilities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Utilities\\ActivityMonitor.Utilities.csproj",
+        "projectName": "ActivityMonitor.Utilities",
+        "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Utilities\\ActivityMonitor.Utilities.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.watcher\\ActivityMonitor.watcher.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.watcher\\ActivityMonitor.watcher.csproj",
+        "projectName": "ActivityMonitor.watcher",
+        "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.watcher\\ActivityMonitor.watcher.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.entity\\ActivityMonitor.entity.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Network\\ActivityMonitor.Network.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Utilities\\ActivityMonitor.Utilities.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Utilities\\ActivityMonitor.Utilities.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitoring\\ActivityMonitor.windows.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitoring\\ActivityMonitor.windows.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitoring\\ActivityMonitor.windows.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitoring\\ActivityMonitor.windows.csproj",
+        "projectName": "ActivityMonitor.windows",
+        "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitoring\\ActivityMonitor.windows.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.service\\ActivityMonitor.service.csproj"
+              },
+              "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Utilities\\ActivityMonitor.Utilities.csproj": {
+                "projectPath": "C:\\Users\\tanuj\\source\\repos\\ActivityMonitoring\\ActivityMonitor.Utilities\\ActivityMonitor.Utilities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
